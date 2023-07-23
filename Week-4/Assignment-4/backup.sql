@@ -42,29 +42,6 @@ INSERT INTO `article` VALUES (9,'Judith Mitchell','Agreement water federal mothe
 UNLOCK TABLES;
 
 --
--- Table structure for table `fake_data`
---
-
-DROP TABLE IF EXISTS `fake_data`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `fake_data` (
-  `email` text,
-  `password` text
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `fake_data`
---
-
-LOCK TABLES `fake_data` WRITE;
-/*!40000 ALTER TABLE `fake_data` DISABLE KEYS */;
-INSERT INTO `fake_data` VALUES ('shawnlawson@example.net','jONwbNok$0'),('lopezmichael@example.net','%6GrByy#cW'),('ernestlawrence@example.org','c#P9MCp%uG'),('samuel99@example.org','U0_cCWw1%s'),('margaretwagner@example.com','QnX3eGB^_5'),('crystalgarcia@example.org','lM8IaB(J!!'),('xevans@example.net','no0NCliQ^y'),('amandaturner@example.org','M@1UmOUFpX'),('michael89@example.com','(foPSWZc25'),('mary03@example.com','9p15tERt)+');
-/*!40000 ALTER TABLE `fake_data` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
 -- Table structure for table `user`
 --
 
@@ -98,4 +75,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-07-23 20:45:46
+-- Dump completed on 2023-07-23 20:58:57
