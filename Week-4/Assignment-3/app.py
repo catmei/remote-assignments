@@ -6,7 +6,7 @@ with open('config.json', 'r') as file:
     config = json.load(file)
 
 connection = pymysql.connect(host='localhost',
-                             user='root',
+                             user=config['user'],
                              password=config['password'],
                              database='assignment',
                              cursorclass=pymysql.cursors.DictCursor)
