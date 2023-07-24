@@ -23,7 +23,7 @@ DROP TABLE IF EXISTS `article`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `article` (
-  `id` int DEFAULT NULL,
+  `user_id` int DEFAULT NULL,
   `author` varchar(255) DEFAULT NULL,
   `title` varchar(255) NOT NULL,
   `content` varchar(255) DEFAULT NULL,
@@ -75,4 +75,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-07-23 20:58:57
+-- Dump completed on 2023-07-24 16:21:00

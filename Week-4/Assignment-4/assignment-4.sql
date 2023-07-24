@@ -1,7 +1,7 @@
 -- query 1
 select article.*, user.email from article 
 left join user 
-on user.id = article.id
+on user.id = article.user_id
 order by id
 
 -- query 2 --
