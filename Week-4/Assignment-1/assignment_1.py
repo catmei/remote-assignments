@@ -10,8 +10,8 @@ def do_job(number):
 # rewrite everything inside this main function and keep others untouched
 def main():
     for i in range(5):
-        locals()[f"thread_{i}"] = threading.Thread(target=do_job, args=(i,))
-        locals()[f"thread_{i}"].start()
+        t = threading.Thread(target=do_job, args=(i,))
+        t.start()
 
 
 main()
